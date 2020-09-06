@@ -1,4 +1,5 @@
 .grid {
   min-width: 108px;
   max-width: 108px;
+  border-color: blue;
 }
