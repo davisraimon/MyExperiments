@@ -1,0 +1,51 @@
+.sudoku {
+  display: flex;
+  flex-direction: column;
+  flex: 1 100%;
+  border: 2px solid lightgray;
+  margin: auto;
+}
+.btn-primary {
+  background-color: #90caf9;
+  color: white;
+}
+.btn {
+  border-radius: 10px;
+  border: None;
+  height: 32px;
+  margin: 8px;
+  width: 100px;
+  font-size: large;
+  cursor: pointer;
+}
+.btn:focus {
+  outline: none;
+  background-color: #42a5f5;
+}
+.btn:hover {
+  background-color: #42a5f5;
+}
+
+.sudoku-title {
+  font-weight: bold;
+  font-size: 1.6em;
+}
+.solver-board-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+}
+.solver-board {
+  padding: 10px;
+}
+.sudoku-row {
+  flex: 1;
+  display: flex;
+  margin: auto;
+}
+
+.sudoku-box {
+  flex: 1;
+  border: 1px solid lightgray;
+}

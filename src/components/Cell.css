@@ -1,0 +1,16 @@
+.cell {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid lightgray;
+ }
+ 
+ .cell-highlighted {
+     width: 30px;
+     height: 30px;
+     font-size: 20px;
+     text-align: center;
+     border: 1px solid lightgray;
+     background-color: #EFEBE9;
+ }
