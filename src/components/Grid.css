@@ -47,8 +47,6 @@
 
 .sudoku-box {
   flex: 1;
-  min-width: 108px;
-  max-width: 108px;
   border: 1px solid lightgray;
-  border-color: red;
+  width: auto;
 }
