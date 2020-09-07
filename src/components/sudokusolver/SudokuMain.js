@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import { clearGrid, solveSudoku } from "../actions/grid";
+import { clearGrid, solveSudoku } from "../../actions/grid";
 import Grid from "./Grid";
 import "./Grid.css";
 

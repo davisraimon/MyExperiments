@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import SudokuMain from "./components/SudokuMain";
+import SudokuMain from "./components/sudokusolver/SudokuMain";
 
 import { Provider } from "react-redux";
 import store from "./store";

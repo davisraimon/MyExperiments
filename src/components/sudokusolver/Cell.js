@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Cell.css";
 import { connect } from "react-redux";
-import { setInput, setHighlight } from "../actions/grid";
+import { setInput, setHighlight } from "../../actions/grid";
 
 const Cell = ({
   setInput,
