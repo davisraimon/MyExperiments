@@ -1,0 +1,35 @@
+.text-area {
+  border-radius: 5px;
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  border-color: lightgray;
+}
+.text-div {
+  text-align: center;
+}
+.card-div {
+  max-width: 305px;
+  margin: auto;
+}
+.btn {
+  border-radius: 5px;
+  font-size: 15px;
+  width: 305px;
+  color: white;
+  padding: 0px !important;
+  background-color: #005b8f;
+}
+.btn:hover {
+  background-color: #136797;
+}
+.container {
+  margin: auto;
+  margin-top: 10%;
+}
+.card-props {
+  width: 305px;
+  height: 100px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
