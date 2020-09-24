@@ -6,15 +6,16 @@
   margin: auto;
 }
 .btn-primary {
-  background-color: #90caf9;
+  background-color: #42a5f5;
   color: white;
 }
 .btn {
   border-radius: 10px;
+  background-color: #42a5f5 !important;
   border: None;
   height: 32px;
   margin: 8px;
-  width: 100px;
+  width: 60px !important;
   font-size: large;
   cursor: pointer;
 }
@@ -23,7 +24,7 @@
   background-color: #42a5f5;
 }
 .btn:hover {
-  background-color: #42a5f5;
+  color: #B0BEC5;
 }
 
 .sudoku-title {
@@ -47,7 +48,6 @@
 
 .sudoku-box {
   flex: 1;
-  min-width: 108px;
-  max-width: 108px;
   border: 1px solid lightgray;
+  width: auto;
 }
