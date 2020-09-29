@@ -8,5 +8,4 @@ export const getSentiments = (text) => async (dispatch) => {
     },
   };
   const res = await axios.post("/sentiment", { text: "check" }, config);
-  console.log(res);
 };
